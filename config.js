@@ -1,9 +1,10 @@
 let fs = require('fs')
 let chalk = require('chalk')
 
-global.owner = ['6281515860089', '6281334177340'] // Put your number here
-global.mods = [] // Want some help?
-global.prems = [] // Premium user has unlimited limit
+global.owner = ['62895322309227'] // Put your number here
+global.linkGC = ['https://chat.whatsapp.com/G3hclmJzKIp3k6B1MBHuYR:']
+global.mods = ['62895322309227'] // Want some help?
+global.prems = ['62895322309227', '62895332170367', '6289527400858', '6281413260135', '6288293472035', '6281398839771', '6285764151410', '6285710130702', '6285759208343'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -27,8 +28,8 @@ global.APIKeys = { // APIKey Here
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'I hope you\'re fine'
-  var sticker_author = 'Nurutomo'
+  var sticker_name = 'FebroBots'
+  var sticker_author = 'Febrian'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
