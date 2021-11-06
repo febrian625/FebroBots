@@ -12,7 +12,6 @@ let tags = {
   'group': 'Group',
   'premium': 'Premium',
   'internet': 'Internet',
-  'anonymous': 'Anonymous Chat',
   'nulis': 'MagerNulis & Logo',
   'downloader': 'Downloader',
   'tools': 'Tools',
