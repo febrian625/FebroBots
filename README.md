@@ -1,4 +1,4 @@
-# wabot-aq
+# FebroBots
 
 Simple WhatsApp Bot
 
